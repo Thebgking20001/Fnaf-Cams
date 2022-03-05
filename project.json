@@ -1,0 +1,145 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Warning: Minor flashing (from changing cameras)\n\nFNAF 1 Camera Mechanic, recreated completely from the ground up so people can have an interactive FNAF 1 Camera on their desktop background!\n\nFeatures:\n-Interactive camera selection (just like in FNAF!)\n-Background Audio (Can be changed via settings)\n-Save last location checked upon wallpaper engine restart\n-Animatronics that move and make noises!\n-Random chance for animatronics (depending on their state and location) to sing/play music.\n-Dynamic Time and night\n-Hallucinations!\n-A small easter egg\n-Dynamic Power Percentage! (Based upon your laptops power, or remains at 100% otherwise)\n-Camera Automatic Shuffle (Disabled by default, allows the wallpaper to shuffle between different cameras)\n-No jumpscares!!!!!!! (Seriously, there's none.)\n\nTo add:\n-All on Trello\n\nAddtional notes:\n-Power doesn't update. I might change it later, idk.\n\nCredits go to:\nScott Cawthon, for making this wonderful game series!\n\nIf there's any specific requests anyone would like to make, feel free to let me know!\n\nMy Discord Server: https://discord.gg/ThW5exp6r4\nMy Socials: https://tabelf.link/\n\nTrello Tasklist: https://trello.com/b/kXHzOO89\n\nDonation Place: https://ko-fi.com/tabularelf",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"bonnieai" : 
+			{
+				"fraction" : false,
+				"index" : 10,
+				"max" : 10,
+				"min" : 0,
+				"order" : 110,
+				"text" : "Bonnie AI",
+				"type" : "slider",
+				"value" : 0
+			},
+			"chicaai" : 
+			{
+				"fraction" : false,
+				"index" : 9,
+				"max" : 10,
+				"min" : 0,
+				"order" : 109,
+				"text" : "Chica AI",
+				"type" : "slider",
+				"value" : 0
+			},
+			"fnafambience" : 
+			{
+				"condition" : "fnafmuteaudio.value == false",
+				"fraction" : true,
+				"index" : 1,
+				"max" : 1,
+				"min" : 0,
+				"order" : 101,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Ambience Sounds",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"fnafanimatronics" : 
+			{
+				"condition" : "fnafmuteaudio.value == false",
+				"fraction" : true,
+				"index" : 2,
+				"max" : 1,
+				"min" : 0,
+				"order" : 102,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Animatronic Sounds",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"fnafcamerashuffle" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Camera Automatic Shuffle",
+				"type" : "bool",
+				"value" : false
+			},
+			"fnafgarblecamera" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Garble Camera",
+				"type" : "bool",
+				"value" : true
+			},
+			"fnafisfirstdaysunday" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "Sunday first day of the week",
+				"type" : "bool",
+				"value" : true
+			},
+			"fnafmuteaudio" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Mute Audio",
+				"type" : "bool",
+				"value" : false
+			},
+			"fnafui" : 
+			{
+				"condition" : "fnafmuteaudio.value == false",
+				"fraction" : true,
+				"index" : 3,
+				"max" : 1,
+				"min" : 0,
+				"order" : 103,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "UI Sounds",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"foxyai" : 
+			{
+				"fraction" : false,
+				"index" : 8,
+				"max" : 10,
+				"min" : 0,
+				"order" : 108,
+				"text" : "Foxy AI",
+				"type" : "slider",
+				"value" : 0
+			},
+			"freddyai" : 
+			{
+				"fraction" : false,
+				"index" : 7,
+				"max" : 10,
+				"min" : 0,
+				"order" : 107,
+				"text" : "Freddy AI",
+				"type" : "slider",
+				"value" : 0
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		},
+		"supportsaudioprocessing" : false
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "Five Nights at Freddy's 1 Camera View (Interactive)",
+	"type" : "web",
+	"version" : 20,
+	"visibility" : "public",
+	"workshopid" : "2517518192",
+	"workshopurl" : "steam://url/CommunityFilePage/2517518192"
+}
